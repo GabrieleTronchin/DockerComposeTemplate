@@ -1,7 +1,6 @@
 # Sample Docker Compose Project
 
 
-Questo è un repository d'esempio che utilizza docker compose per avviare alcuni servizi pubblici.
-Sono presenti alcune cartelle che consentono di customizzare i servizi.
+This is a sample repository that uses Docker Compose to start some public services. There are folders available for customizing the services.
 
-Alcuni powershell sono stati aggiunti per consentire una veloce iterazione con docker.
+Some PowerShell scripts have been added to facilitate quick interaction with Docker.
