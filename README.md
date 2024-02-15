@@ -10,22 +10,26 @@ Docker compose explanation:
 
 docker-compose-sqlserver
 
+
 ### Redis
 
 docker-compose-redis
 
-Redis
+[Redis](https://redis.io/docs/install/)
 Redis-monitoring
+
+
 
 ### Monitoring
 
 docker-compose-monitoring
 
 Contains:
--Metricbeat
--Elasticsearch
--Kibana
--Portainer
+-[Metricbeat](https://www.elastic.co/beats/metricbeat)
+-[Elasticsearch](https://www.elastic.co/)
+-[Kibana](https://www.elastic.co/kibana)
+-[Portainer](https://www.portainer.io/)
+
 
 
 ## Other Utilities
@@ -33,7 +37,7 @@ Contains:
 ### Self Signed Certificate
 For test purpose use Script: selfsigned-certs-generator.ps1
 
-
 ### Usefull links
 
-Rancher Desktop ( a free and comercial use for docker and/or Kubernates in local )
+[Rancher Desktop](https://rancherdesktop.io/): a free and comercial use for docker and/or Kubernates in local
+
