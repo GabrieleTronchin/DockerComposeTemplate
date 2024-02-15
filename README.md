@@ -15,20 +15,18 @@ docker-compose-sqlserver
 
 docker-compose-redis
 
-[Redis](https://redis.io/docs/install/)
-Redis-monitoring
-
-
+- [Redis](https://redis.io/docs/install/)
+- Redis-monitoring
 
 ### Monitoring
 
 docker-compose-monitoring
 
 Contains:
--[Metricbeat](https://www.elastic.co/beats/metricbeat)
--[Elasticsearch](https://www.elastic.co/)
--[Kibana](https://www.elastic.co/kibana)
--[Portainer](https://www.portainer.io/)
+- [Metricbeat](https://www.elastic.co/beats/metricbeat)
+- [Elasticsearch](https://www.elastic.co/)
+- [Kibana](https://www.elastic.co/kibana)
+- [Portainer](https://www.portainer.io/)
 
 
 
