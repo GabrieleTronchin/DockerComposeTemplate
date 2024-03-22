@@ -1,41 +1,32 @@
 # Template Docker Compose Setup
 
-This is a sample repository act as a template to setup a Docker Compose enviroment.
+This repository serves as a sample template for setting up a Docker Compose environment.
 
 ## Overview
 
-Docker compose explanation:
-
 ### MS SQL Server
 
-docker-compose-sqlserver
-
+The `docker-compose-sqlserver` file is responsible for configuring MS SQL Server.
 
 ### Redis
 
-docker-compose-redis
-
+The `docker-compose-redis` file handles Redis setup, including:
 - [Redis](https://redis.io/docs/install/)
 - Redis-monitoring
 
 ### Monitoring
 
-docker-compose-monitoring
-
-Contains:
+The `docker-compose-monitoring` file contains configurations for:
 - [Metricbeat](https://www.elastic.co/beats/metricbeat)
 - [Elasticsearch](https://www.elastic.co/)
 - [Kibana](https://www.elastic.co/kibana)
 - [Portainer](https://www.portainer.io/)
 
-
-
 ## Other Utilities
 
-### Self Signed Certificate
-For test purpose use Script: selfsigned-certs-generator.ps1
+### Self-Signed Certificate
+For testing purposes, use the script `selfsigned-certs-generator.ps1` to generate self-signed certificates.
 
-### Usefull links
+### Useful Links
 
-[Rancher Desktop](https://rancherdesktop.io/): a free and comercial use for docker and/or Kubernates in local
-
+[Rancher Desktop](https://rancherdesktop.io/): A free and commercial tool for Docker and/or Kubernetes in a local environment.
